@@ -1,5 +1,6 @@
 docs/
 venv/
+agents/__pycache__/
 
 chat.md
 .env
