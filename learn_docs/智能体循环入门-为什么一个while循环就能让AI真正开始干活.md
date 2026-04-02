@@ -6,6 +6,8 @@
 
 这件事听起来很简单，落到代码里，其实就是一个循环。也正是这个循环，让模型从“会回答问题”变成了“会动手做事”。
 
+仓库 [to-learn-learn-claude-code](https://github.com/lichangke/to-learn-learn-claude-code)
+
 ## 先用一句话说明白
 
 如果把大模型看成大脑，把 Bash 看成手，那么 Agent Loop 就是这套系统里的“神经回路”。
@@ -266,3 +268,9 @@ if response.stop_reason != "tool_use":
 **智能体之所以开始像“会做事”，不是因为它突然变得更聪明了，而是因为它终于能看到自己刚刚做出来的结果，并据此继续往前走。**
 
 这，就是 Agent Loop 最核心的价值。后面所有更复杂的能力，几乎都建立在这层闭环之上。
+
+## 致谢
+
+学习主线参考并受益于：
+
+- [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code)
