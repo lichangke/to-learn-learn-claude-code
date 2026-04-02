@@ -44,6 +44,7 @@
 | 总结文档 | 说明 | 代码 |
 | --- | --- | --- |
 | [智能体循环入门：为什么一个 while 循环就能让 AI 真正开始干活](learn_docs/智能体循环入门-为什么一个while循环就能让AI真正开始干活.md) | Agent 的关键不是会调工具，而是能把工具结果重新喂回模型形成闭环。 | [agents/s01_agent_loop.py](agents/s01_agent_loop.py) |
+| [工具调用拆解：为什么给 Agent 加能力，不用重写循环](learn_docs/工具调用拆解-为什么给Agent加能力不用重写循环.md) | s02 的重点不是工具变多，而是用分发表把新增能力稳稳接进原有闭环。 | [agents/s02_tool_use.py](agents/s02_tool_use.py) |
 
 
 
