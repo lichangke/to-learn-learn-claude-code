@@ -6,7 +6,7 @@
 
 这件事听起来很简单，落到代码里，其实就是一个循环。也正是这个循环，让模型从“会回答问题”变成了“会动手做事”。
 
-仓库 [to-learn-learn-claude-code](https://github.com/lichangke/to-learn-learn-claude-code)
+链接： [s01_agent_loop.py](https://github.com/lichangke/to-learn-learn-claude-code/blob/main/agents/s01_agent_loop.py)
 
 ## 先用一句话说明白
 

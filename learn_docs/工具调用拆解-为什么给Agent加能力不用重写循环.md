@@ -6,7 +6,7 @@
 
 > 当模型已经会循环调用工具之后，怎么把新能力一项一项接进去，而且越加越稳？
 
-仓库 [to-learn-learn-claude-code](https://github.com/lichangke/to-learn-learn-claude-code)
+链接： [s02_tool_use.py](https://github.com/lichangke/to-learn-learn-claude-code/blob/main/agents/s02_tool_use.py)
 
 ## 先说结论
 
