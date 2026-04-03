@@ -47,6 +47,7 @@
 | [工具调用拆解：为什么给 Agent 加能力，不用重写循环](learn_docs/工具调用拆解-为什么给Agent加能力不用重写循环.md) | s02 的重点不是工具变多，而是用分发表把新增能力稳稳接进原有闭环。 | [agents/s02_tool_use.py](agents/s02_tool_use.py) |
 | [待办清单驱动执行：为什么 Agent 做复杂任务时需要持续更新计划](learn_docs/待办清单驱动执行-为什么Agent做复杂任务时需要持续更新计划.md) | s03 的重点不是多一个 todo 工具，而是把任务进度变成可持续维护的结构化状态。 | [agents/s03_todo_write.py](agents/s03_todo_write.py) |
 | [子代理拆分任务：为什么要用上下文隔离保护 Agent 的思路清晰](learn_docs/子代理拆分任务-为什么要用上下文隔离保护Agent的思路清晰.md) | s04 的关键不是多一个 task 工具，而是把探索过程隔离到子上下文里，只把结果摘要带回主循环。 | [agents/s04_subagent.py](agents/s04_subagent.py) |
+| [技能按需加载：为什么不要把所有知识都塞进 System Prompt](learn_docs/技能按需加载-为什么不要把所有知识都塞进SystemPrompt.md) | s05 的重点不是多一个 load_skill 工具，而是把知识注入从默认全量改成先挂目录、再按需加载。 | [agents/s05_skill_loading.py](agents/s05_skill_loading.py) |
 
 
 
