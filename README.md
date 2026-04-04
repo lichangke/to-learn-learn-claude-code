@@ -48,6 +48,7 @@
 | [待办清单驱动执行：为什么 Agent 做复杂任务时需要持续更新计划](learn_docs/待办清单驱动执行-为什么Agent做复杂任务时需要持续更新计划.md) | s03 的重点不是多一个 todo 工具，而是把任务进度变成可持续维护的结构化状态。 | [agents/s03_todo_write.py](agents/s03_todo_write.py) |
 | [子代理拆分任务：为什么要用上下文隔离保护 Agent 的思路清晰](learn_docs/子代理拆分任务-为什么要用上下文隔离保护Agent的思路清晰.md) | s04 的关键不是多一个 task 工具，而是把探索过程隔离到子上下文里，只把结果摘要带回主循环。 | [agents/s04_subagent.py](agents/s04_subagent.py) |
 | [技能按需加载：为什么不要把所有知识都塞进 System Prompt](learn_docs/技能按需加载-为什么不要把所有知识都塞进SystemPrompt.md) | s05 的重点不是多一个 load_skill 工具，而是把知识注入从默认全量改成先挂目录、再按需加载。 | [agents/s05_skill_loading.py](agents/s05_skill_loading.py) |
+| [上下文压缩设计：为什么 Agent 想长期工作，必须学会分层遗忘](learn_docs/上下文压缩设计-为什么Agent想长期工作必须学会分层遗忘.md) | s06 的关键不是简单删历史，而是把活跃上下文、摘要记忆和磁盘归档拆成三层，让 Agent 能长期工作。 | [agents/s06_context_compact.py](agents/s06_context_compact.py) |
 
 
 
