@@ -43,13 +43,14 @@
 
 | 总结文档 | 说明 | 代码 |
 | --- | --- | --- |
-| [智能体循环入门：为什么一个 while 循环就能让 AI 真正开始干活](learn_docs/智能体循环入门-为什么一个while循环就能让AI真正开始干活.md) | Agent 的关键不是会调工具，而是能把工具结果重新喂回模型形成闭环。 | [agents/s01_agent_loop.py](agents/s01_agent_loop.py) |
+| [智能体循环入门：为什么一个 while 循环就能让 AI 真正开始干活](learn_docs/智能体循环入门-为什么一个while循环就能让AI真正开始干活.md) | s01 的关键不是会调工具，而是能把工具结果重新喂回模型形成闭环。 | [agents/s01_agent_loop.py](agents/s01_agent_loop.py) |
 | [工具调用拆解：为什么给 Agent 加能力，不用重写循环](learn_docs/工具调用拆解-为什么给Agent加能力不用重写循环.md) | s02 的重点不是工具变多，而是用分发表把新增能力稳稳接进原有闭环。 | [agents/s02_tool_use.py](agents/s02_tool_use.py) |
 | [待办清单驱动执行：为什么 Agent 做复杂任务时需要持续更新计划](learn_docs/待办清单驱动执行-为什么Agent做复杂任务时需要持续更新计划.md) | s03 的重点不是多一个 todo 工具，而是把任务进度变成可持续维护的结构化状态。 | [agents/s03_todo_write.py](agents/s03_todo_write.py) |
 | [子代理拆分任务：为什么要用上下文隔离保护 Agent 的思路清晰](learn_docs/子代理拆分任务-为什么要用上下文隔离保护Agent的思路清晰.md) | s04 的关键不是多一个 task 工具，而是把探索过程隔离到子上下文里，只把结果摘要带回主循环。 | [agents/s04_subagent.py](agents/s04_subagent.py) |
 | [技能按需加载：为什么不要把所有知识都塞进 System Prompt](learn_docs/技能按需加载-为什么不要把所有知识都塞进SystemPrompt.md) | s05 的重点不是多一个 load_skill 工具，而是把知识注入从默认全量改成先挂目录、再按需加载。 | [agents/s05_skill_loading.py](agents/s05_skill_loading.py) |
 | [上下文压缩设计：为什么 Agent 想长期工作，必须学会分层遗忘](learn_docs/上下文压缩设计-为什么Agent想长期工作必须学会分层遗忘.md) | s06 的关键不是简单删历史，而是把活跃上下文、摘要记忆和磁盘归档拆成三层，让 Agent 能长期工作。 | [agents/s06_context_compact.py](agents/s06_context_compact.py) |
 | [任务系统设计：为什么 Agent 不能只靠聊天记录推进长期工作](learn_docs/任务系统设计-为什么Agent不能只靠聊天记录推进长期工作.md) | s07 的关键不是把 Todo 换个存储位置，而是把任务状态和依赖关系迁到对话外部，让 Agent 在压缩或重启后还能继续推进。 | [agents/s07_task_system.py](agents/s07_task_system.py) |
+| [后台任务设计：为什么 Agent 遇到慢命令时不该原地干等](learn_docs/后台任务设计-为什么Agent遇到慢命令时不该原地干等.md) | s08 的关键不是多一个后台工具，而是把等待长命令完成这件事从模型思考链路里拆出去，让 Agent 能边等边继续推进。 | [agents/s08_background_tasks.py](agents/s08_background_tasks.py) |
 
 
 
