@@ -49,6 +49,7 @@
 | [子代理拆分任务：为什么要用上下文隔离保护 Agent 的思路清晰](learn_docs/子代理拆分任务-为什么要用上下文隔离保护Agent的思路清晰.md) | s04 的关键不是多一个 task 工具，而是把探索过程隔离到子上下文里，只把结果摘要带回主循环。 | [agents/s04_subagent.py](agents/s04_subagent.py) |
 | [技能按需加载：为什么不要把所有知识都塞进 System Prompt](learn_docs/技能按需加载-为什么不要把所有知识都塞进SystemPrompt.md) | s05 的重点不是多一个 load_skill 工具，而是把知识注入从默认全量改成先挂目录、再按需加载。 | [agents/s05_skill_loading.py](agents/s05_skill_loading.py) |
 | [上下文压缩设计：为什么 Agent 想长期工作，必须学会分层遗忘](learn_docs/上下文压缩设计-为什么Agent想长期工作必须学会分层遗忘.md) | s06 的关键不是简单删历史，而是把活跃上下文、摘要记忆和磁盘归档拆成三层，让 Agent 能长期工作。 | [agents/s06_context_compact.py](agents/s06_context_compact.py) |
+| [任务系统设计：为什么 Agent 不能只靠聊天记录推进长期工作](learn_docs/任务系统设计-为什么Agent不能只靠聊天记录推进长期工作.md) | s07 的关键不是把 Todo 换个存储位置，而是把任务状态和依赖关系迁到对话外部，让 Agent 在压缩或重启后还能继续推进。 | [agents/s07_task_system.py](agents/s07_task_system.py) |
 
 
 
