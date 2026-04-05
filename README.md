@@ -52,6 +52,7 @@
 | [任务系统设计：为什么 Agent 不能只靠聊天记录推进长期工作](learn_docs/任务系统设计-为什么Agent不能只靠聊天记录推进长期工作.md) | s07 的关键不是把 Todo 换个存储位置，而是把任务状态和依赖关系迁到对话外部，让 Agent 在压缩或重启后还能继续推进。 | [agents/s07_task_system.py](agents/s07_task_system.py) |
 | [后台任务设计：为什么 Agent 遇到慢命令时不该原地干等](learn_docs/后台任务设计-为什么Agent遇到慢命令时不该原地干等.md) | s08 的关键不是多一个后台工具，而是把等待长命令完成这件事从模型思考链路里拆出去，让 Agent 能边等边继续推进。 | [agents/s08_background_tasks.py](agents/s08_background_tasks.py) |
 | [智能体团队协作设计：为什么 Agent 真正像团队一样工作，离不开持久队友和文件邮箱](learn_docs/智能体团队协作设计-为什么Agent真正像团队一样工作离不开持久队友和文件邮箱.md) | s09 的关键不是多开几个模型，而是给每个队友稳定身份、状态和收件箱，让协作脱离一次性调用。 | [agents/s09_agent_teams.py](agents/s09_agent_teams.py) |
+| [团队协议设计：为什么多智能体协作不能只靠发消息](learn_docs/团队协议设计-为什么多智能体协作不能只靠发消息.md) | s10 的关键不是多几个握手工具，而是把协作约定变成带 request_id 的结构化协议。 | [agents/s10_team_protocols.py](agents/s10_team_protocols.py) |
 
 
 
