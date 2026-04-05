@@ -19,7 +19,6 @@
 - Agent Teams：如何设计多智能体团队
 - Team Protocols：团队协作时的协议与约束
 - Autonomous Agents：更高自治度的智能体执行模式
-- Worktree Task Isolation：任务隔离与并行开发
 
 ## 仓库结构
 
