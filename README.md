@@ -43,6 +43,7 @@
 
 | 总结文档 | 说明 | 代码 |
 | --- | --- | --- |
+| [从 Agent Loop 到 Agent Harness：一篇讲透智能体工程的架构、流程与设计取舍](learn_docs/从AgentLoop到AgentHarness-一篇讲透智能体工程的架构流程与设计取舍.md) | 这篇总览把 s01-s11 串成一套完整的 Agent Harness，并补上设计思路、架构思路与工程取舍。 | [agents/s00_full.py](agents/s00_full.py) |
 | [智能体循环入门：为什么一个 while 循环就能让 AI 真正开始干活](learn_docs/智能体循环入门-为什么一个while循环就能让AI真正开始干活.md) | s01 的关键不是会调工具，而是能把工具结果重新喂回模型形成闭环。 | [agents/s01_agent_loop.py](agents/s01_agent_loop.py) |
 | [工具调用拆解：为什么给 Agent 加能力，不用重写循环](learn_docs/工具调用拆解-为什么给Agent加能力不用重写循环.md) | s02 的重点不是工具变多，而是用分发表把新增能力稳稳接进原有闭环。 | [agents/s02_tool_use.py](agents/s02_tool_use.py) |
 | [待办清单驱动执行：为什么 Agent 做复杂任务时需要持续更新计划](learn_docs/待办清单驱动执行-为什么Agent做复杂任务时需要持续更新计划.md) | s03 的重点不是多一个 todo 工具，而是把任务进度变成可持续维护的结构化状态。 | [agents/s03_todo_write.py](agents/s03_todo_write.py) |
